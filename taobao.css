@@ -1,0 +1,293 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+text-decoration: none;
+}
+html,body{
+    width:100%;
+    height:1000px;
+    background:#f4f4f4;
+}
+.wrapper{
+    width:100%;
+    height:100%;
+}
+.wrapper .top-nav-wrap{
+    width:100%;
+    height:35px;
+    background:#f5f5f5;
+    border:1px solid #aaa;
+}
+.wrapper .top-nav-wrap .top-nav{
+    width:1190px;
+    height:35px;
+    margin:0 auto;
+    /* border:1px solid #000; */
+}
+.wrapper .top-nav-wrap .top-nav .top-nav-l{
+    float:left;
+}
+.wrapper .top-nav-wrap .top-nav .top-nav-r{
+    float:right;
+}
+.wrapper .top-nav-wrap .top-nav li{
+    float:left;
+    margin-right:7px;
+}
+.wrapper .top-nav-wrap .top-nav li a{
+    color:#6c6c6c;
+    font-size: 12px;
+    line-height:35px;
+    padding:0 4px;
+}
+.wrapper .top-nav-wrap .top-nav li a:hover,
+.wrapper .top-nav-wrap .top-nav li .login{
+    
+    color:#f40;
+}
+.wrapper .top-nav-wrap .top-nav .china{
+    color:#3c3c3c;
+    font-size:12px;
+    line-height:35px;
+}
+.wrapper .top-nav-wrap .top-nav .cutOff span{
+    
+    color:#ddd;
+    line-height:35px;
+}
+ .wrapper .top-nav-wrap .top-nav .bgPic{
+display:inline-block;
+width:6px;
+height:3px;
+vertical-align: middle;
+background-size: 100% 100%;
+
+}
+.wrapper .top-nav-wrap .top-nav .xsjPic{
+    
+    background-image:url('./img/xsj.png')
+}
+.wrapper .top-nav-wrap .top-nav .shopCarPic{
+
+    width:12px;
+    height:12px;
+    background-image: url('img/shopcar.png');
+} 
+.wrapper .top-nav-wrap .top-nav .likePic{
+    height:12px;
+    width:12px;
+    background-image: url('./img/star.png');
+}
+.wrapper .top-nav-wrap .top-nav .webNavPic{
+    width:12px;
+    height:12px;
+    background-image:url('./img/nav.png');
+
+}
+
+/* 导航条结束 */
+
+.wrapper .search-wrap{
+width:100%;
+height:97px;
+/* border:1px solid #000; */
+background-color:#fff;
+padding-top:24px;
+padding-bottom:9px;
+
+}
+
+.wrapper .search-wrap .search-con{
+    width:1190px;
+    height:88px;
+    /* border:1px solid red; */
+    margin:0 auto;
+}
+
+.wrapper .search-wrap .search-con .logo-box{
+    width:190px;
+    display:inline-block;
+    height:80px;
+    vertical-align:middle;
+    /* border:1px solid #000; */
+}
+.wrapper .search-wrap .search-con .logo-box img{   
+width:90%;
+padding: 5px 10px;
+}
+.wrapper .search-wrap .search-con .search-box{
+    height:87px;
+    display:inline-block;
+    
+    width:627px;
+    vertical-align:middle;
+    /* border:1px solid #000; */
+    margin-left:50px;
+} 
+.wrapper .search-wrap .search-con .search-box .search-bd{
+    width:627px;
+    height:62px;
+    /* border:1px solid #000; */
+}  
+.wrapper .search-wrap .search-con .search-box .search-bd .search-tab{
+width:610px;
+height:22px;
+margin-left:17px;
+/* border:1px solid #000; */
+}
+
+
+    
+.wrapper .search-wrap .search-con .search-box .search-bd li{
+    float:left;
+    width:36px;
+    height:22px;
+    line-height:22px;
+    text-align:center;
+    color:#f40;
+    margin-right:4px;
+    font-size: 13px;
+    
+}
+.wrapper .search-wrap .search-con .search-box .search-bd li:hover{
+    background:#ffeee5;
+}
+
+.wrapper .search-wrap .search-con .search-box .search-bd li.select{
+background:linear-gradient(to right,#ff9000 0,#ff5000 100%);
+color:#fff;
+font-weight:700;
+border-radius:4px;
+
+}
+.wrapper .search-wrap .search-con .search-box .search-bd .search-panel{
+    width:627px;
+    height:40px;
+    position: relative;
+    /* border:1px solid #000; */
+}    
+.wrapper .search-wrap .search-con .search-box .search-bd .search-panel .btn{
+    position: absolute;
+    top:0;
+    right:0;
+    width:74px;
+    height:40px;
+    z-index: 1000;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+.wrapper .search-wrap .search-con .search-box .search-bd .search-panel .btn button{
+    width:100%;
+    border:none;
+    height:100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    color:#ddd;
+     background:linear-gradient(to right,#ff9000 0,#ff5000 100%); 
+     font-size:18px;
+     font-weight:700;
+}
+.wrapper .search-wrap .search-con .search-box .search-bd .search-panel .search-inp-box{
+    width:551px;
+    border:2px solid #ff5000;
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
+    border-right:none;
+    height:36px;
+    overflow:hidden;
+    
+
+}
+.wrapper .search-wrap .search-con .search-box .search-bd .search-panel .search-inp{
+    width:472px;
+    height:36px;
+    overflow:hidden;
+}
+.wrapper .search-wrap .search-con .search-box .search-bd .search-panel .search-inp input{
+    width:472px;
+    height:24px;
+    line-height:24px;
+    border:none;
+    outline:none;
+    text-indent:35px;
+    padding:6px 10px;
+    background-color:#fff;
+}
+
+.wrapper .search-wrap .search-con .search-box .search-bd .search-panel .sousuo,
+.wrapper .search-wrap .search-con .search-box .search-bd .search-panel .camera{
+    display:inline-block;
+    position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width:22px;
+    height:22px;
+    
+}
+.wrapper .search-wrap .search-con .search-box .search-bd .search-panel .sousuo{
+    
+    top:11px;
+    left:12px;
+    background-image:url('./img/big.png');
+}
+.wrapper .search-wrap .search-con .search-box .search-bd .search-panel .camera{
+   
+    top:11px;
+    right:82px;
+    background-image:url('./img/crame.png');
+}
+
+
+
+
+
+.wrapper .search-wrap .search-con .search-box .search-ft{
+    width:627px;
+    height:18px;
+    /* border:1px solid #000; */
+}
+.wrapper .search-wrap .search-con .search-box .search-ft ul li{
+    float: left;
+    color:#666;
+    margin-right:8px;
+    font-size: 12px;
+}
+
+.wrapper .search-wrap .search-con .search-box .search-ft ul li:first-child{
+    margin-left:6px;
+}
+.wrapper .search-wrap .search-con .search-box .search-ft ul li a{   
+    color:#666;
+}    
+.wrapper .search-wrap .search-con .search-box .search-ft ul li:hover,
+.wrapper .search-wrap .search-con .search-box .search-ft ul li.select{
+    color:#ff9000;
+}
+.wrapper .search-wrap .search-con .search-box .search-ft  .more{
+    float:right;
+    color:#666;
+    font-size: 12px;
+    padding-right:4px;
+    line-height:13px;
+    
+
+}
+        
+
+    
+
+.wrapper .search-wrap .search-con .code-box{
+    height:90px;
+    display:inline-block;
+    
+    width:76px;
+    border:1px solid #000;
+    vertical-align:middle;
+}   
+   
+    
+
+
+
+
